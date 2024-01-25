@@ -2,7 +2,7 @@
  *
  * @param {HTMLElement} element
  */
-function percentageScreen(element) {
+function percentageSeenHtmlElement(element) {
     const viewportHeight = window.innerHeight;
     const scrollY = window.scrollY;
     const elementPositionY = element.getBoundingClientRect().top + scrollY;
